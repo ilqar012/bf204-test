@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html4 lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        section {
+            display: flex;
+            justify-content: center;
+            gap: 4rem ;
+        }
+        .foto {
+            width: 700px;
+            height: 700px;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form action="home.html">
+            <h2>Register</h2>
+            <div>
+                <label for="name">Username:</label>
+                <input id="name" type="text" required minlength="3">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label>
+                <input id="email" type="email" required >
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input  id="password" type="password" required min="8">
+            </div>
+            <br>
+            <div>
+                <select name="Uni" id="uni-select" required>
+                    <option value="University">University</option>
+                    <option value="BDU">BDU</option>
+                    <option value="ADNSU">ADNSU</option>
+                    <option value="AZMIU">AZMIU</option>
+                    <option value="AZTU">AZTU</option>
+                    <option value="LDU">LDU</option>
+                    <option value="ATU">ATU</option>
+                </select>
+                <select name="rayon" id="rayon-select" required>
+                    <option value="None">None</option>
+                    <option value="Bilesuvar">Bilesuvar</option>
+                    <option value="Celilabad">Celilabad</option>
+                    <option value="Lankaran">Lankaran</option>
+                    <option value="Masalli">Masalli</option>
+                    <option value="Goycay">Goycay</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="gender11">Gender:</label>
+                <input name="gender" id="gender1" type="radio">
+                <label for="gender1">Man</label>
+                <input name="gender"  id="gender2" type="radio">
+                <label for="gender2">Woman</label>
+            </div>
+            <br>
+            <button type="submit">Add User</button>
+        </form>
+        <div class="foto">
+            <img  width="400px" height="400px" src="istockphoto-481229372-612x612.jpg" alt="galaxy foto">
+        </div>
+    </section>
+
+</body>
+</html4
