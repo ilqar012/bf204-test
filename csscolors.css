@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#big{
+    height: 100vh;
+    background-image: url("./foto fayli/big.jpeg");
+}
+.span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#folder{
+    height: 100vh;
+    background-image: url("./foto fayli/folder-img.jpeg");
+}
+#small{
+    height: 100vh;
+    background-image: url("./foto fayli/big.jpeg");
+}
+#gradient{
+    height: 100vh;
+    background-image: url("./foto fayli/top.jpg");
+}
