@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+}
+#border{
+    width: 96%;
+    height: 300px;
+    background-color: orange;
+    margin: auto;
+    border: 10px solid brown;
+    transition: 1s;
+}
+#border:hover{
+    background-color: brown;
+    border-color: orange;
+}
+#margin{
+    width: 76%;
+    height: 150px;
+    background-color: aqua;
+    border: 10px solid blue;
+    margin: auto;
+    transition: 1s;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#margin:hover{
+    background-color: blue;
+    border-color: aqua;
+}
