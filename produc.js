@@ -440,9 +440,9 @@ let arr = [
 
 // 13) key'leri 10'dan boyuk ve "name"-i 'l' herfi ile bashlayan obyektleri tapaq
 
-// let res = arr.filter(
-//   (number) =>
-//     number.key > 10 &&
-//     number.name.trim().toLowerCase().startsWith("l".trim().toLowerCase())
-// );
-// console.log(res);
+let res = arr.filter(
+  (number) =>
+    number.key > 10 &&
+    number.name.trim().toLowerCase().startsWith("l".trim().toLowerCase())
+);
+console.log(res);
