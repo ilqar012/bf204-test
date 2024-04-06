@@ -1,0 +1,31 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    width: 18rem;
+    margin: 50px auto;
+}
+.card-img-top{
+    width: 18rem;
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 20px;
+    padding: 10px 0px;
+}
+.card-text{
+    padding-bottom: 10px;
+}
+.btn{
+    text-decoration: none;
+    color: black;
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    padding: 5px 10px;
+} */
