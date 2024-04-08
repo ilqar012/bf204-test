@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.to-do-wrapper {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    0deg,
+    rgba(45, 161, 253, 1) 57%,
+    rgba(145, 212, 255, 1) 100%
+  );
+  padding: 300px 0px 100px 0px;
+}
+.to-do {
+  width: calc(100% / 3 * 1);
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.btn {
+  margin-left: 10px;
+  transition: 1s;
+}
+.btn:hover i {
+  color: black;
+}
+.btn:hover {
+  color: black;
+}
+::placeholder {
+  font-size: 18px;
+  font-weight: 400;
+}
+.span {
+  font-size: 18px;
+}
+.span-input{
+    display: none;
+    margin: auto;
+}
