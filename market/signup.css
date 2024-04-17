@@ -1,0 +1,18 @@
+.form-div {
+    margin: auto;
+  }
+  .form-text {
+    text-align: center;
+    padding: 30px 0px;
+  }
+  .table {
+    width: 80%;
+    margin: auto;
+  }
+  .form input{
+      border-radius: 30px;
+  }
+  main{
+    padding-top: 80px;
+    
+  }
