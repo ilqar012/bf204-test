@@ -10,11 +10,26 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./index.css" />
     <script type="module" src="./main.js" defer></script>
     <title>Table</title>
   </head>
   <body>
+    <header>
+      <div class="container">
+        <div class="header d-flex justify-content-between align-items-center">
+          <h1 class="logo text-white">Suppliers</h1>
+          <input type="search" class="form-control w-25" id="search" />
+          <button class="btn btn-light sort">Ascending</button>
+          <nav>
+            <ul class="d-flex gap-5 m-0">
+              <li><a href='#'>Suppliers Lists</a></li>
+              <li><a href='./form.html'>Add or Update Supplier</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
     <div class="main">
       <div class="container">
         <table class="table">
@@ -35,12 +50,13 @@
           </tbody>
         </table>
         <div id="loading-overlay" class="open d-none">
-            <span class="loader"></span>
+          <span class="loader"></span>
         </div>
       </div>
     </div>
+    <!-- axios cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- sweetalert cdn -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
-
