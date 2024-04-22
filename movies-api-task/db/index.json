@@ -1,0 +1,82 @@
+{
+  "movies": [
+    {
+      "title": "Iron Man 1 ",
+      "genre": "fantasy",
+      "country": "United States",
+      "director": "Jon Favreau",
+      "ageRestriction": "6",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_FMjpg_UX1000_.jpg",
+      "trailerURL": "https://youtu.be/8ugaeA-nMTc",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way.",
+      "id": "1"
+    },
+    {
+      "title": "Iron Man 2",
+      "genre": "fantasy",
+      "country": "United States",
+      "director": "Jon Favreau",
+      "ageRestriction": "0",
+      "poster": "https://miro.medium.com/v2/resize:fit:640/1*a7wIBOE3DKQeBQN4YuG78g.jpeg",
+      "trailerURL": "https://youtu.be/wKtcmiifycU",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "2"
+    },
+    {
+      "title": "Iron Man 3",
+      "genre": "fantasy",
+      "country": "United States",
+      "director": "Jon Favreau",
+      "ageRestriction": "0",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMjE5MzcyNjk1M15BMl5BanBnXkFtZTcwMjQ4MjcxOQ@@._V1_.jpg",
+      "trailerURL": "https://youtu.be/oYSD2VQagc4",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "2"
+    },
+    {
+      "title": "Iron Man 4",
+      "genre": "fantasy",
+      "country": "United States",
+      "director": "Jon Favreau",
+      "ageRestriction": "0",
+      "poster": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/c648f642163791.57c35b9d81a54.jpg",
+      "trailerURL": "https://youtu.be/aXE43XtUlX4",
+      "description": "In a bid to get his land back, Shrek agrees to retrieve Princess Fiona for the fairytale-hating Lord Farquaad of Duloc, but falls in love with her on the way. UPDATED",
+      "id": "2"
+    }
+  ],
+  "genres": [
+    {
+      "id": "1",
+      "name": "animation"
+    },
+    {
+      "id": "2",
+      "name": "drama"
+    },
+    {
+      "id": "3",
+      "name": "comedy"
+    },
+    {
+      "id": "4",
+      "name": "horror"
+    },
+    {
+      "id": "5",
+      "name": "fantasy"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "wehw4h",
+      "wishlistItems": [
+        {
+          "id": 1,
+          "movieId": 2
+        }
+      ]
+    }
+  ]
+}
