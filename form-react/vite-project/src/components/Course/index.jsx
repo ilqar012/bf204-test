@@ -10,7 +10,7 @@ function Course({ product, setData, data}) {
     setData(a)
   };
   return (
-    <Card style={{ width: "18rem", maxHeight: "500px" }}>
+    <Card style={{ width: "18rem", maxHeight: "500px"}}>
       <Card.Img
         variant="top"
         src={product.img}
