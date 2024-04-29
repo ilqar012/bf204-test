@@ -1,0 +1,22 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Iron man",
+            "price": 100,
+            "isDiscounted": false
+          },
+          {
+            "id": 2,
+            "name": "Spiderman",
+            "price": 200,
+            "isDiscounted": true
+          },
+          {
+            "id": 3,
+            "name": "Thor",
+            "price": 200,
+            "isDiscounted": true
+          }
+    ]
+}
