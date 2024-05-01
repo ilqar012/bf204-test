@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    },
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    },
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    },
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    },
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    },
+    {
+      "id": "1",
+      "title": "Iron Man 1",
+      "posterUrl": "https://www.movienewsletters.net/photos/277216R1.jpg",
+      "genre": "SuperHero",
+      "releaseYear": "2008",
+      "cast": []
+    }
+  ]
+}
