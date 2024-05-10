@@ -33,6 +33,7 @@ const EmployeeCard = ({ employee }) => {
             <Button variant="outlined" size="small">
               <FaHeart style={{ fontSize: "22px", color: "red ", padding: "5px 20px"}} />
             </Button>
+            <Button variant="outlined"size="small"></Button>
           </CardActions>
         </Card>
       </Grid>

@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "name": "Coca Cola",
+      "categoryId": "1",
+      "salePrice": "5",
+      "costPrice": "2",
+      "discountPercentage": "20",
+      "imgSrc": "https://www.bakenroll.az/en/image/coca-cola.jpg",
+      "description ": "Cola is a carbonated soft drink flavored with vanilla, cinnamon, citrus oils, and other flavorings. Cola became popular worldwide after the American pharmacist John Stith Pemberton invented Coca-Cola, a trademarked brand, in 1886, which was imitated by other manufacturers.",
+      "createdAt" : "2013",
+      "stockCount": "100"
+    },
+    {
+        "id": "1",
+        "name": "Fanta",
+        "categoryId": "2",
+        "salePrice": "4",
+        "costPrice": "1.5",
+        "discountPercentage": "40",
+        "imgSrc": "https://www.bakenroll.az/en/image/fanta.jpg",
+        "description ": "Fanta is an American-owned brand of fruit-flavored carbonated soft drink created by Coca-Cola Deutschland under the leadership of German businessman Max Keith. There are more than 200 flavors worldwide. Fanta originated in Germany as a Coca-Cola alternative in 1941 due to the American trade embargo of Nazi Germany, which affected the availability of Coca-Cola ingredients. Fanta soon dominated the German market with three million cases sold in 1943. The current formulation of Fanta, with orange flavor, was developed in Italy in 1955.",
+        "createdAt" : "1941",
+        "stockCount": "100"
+      }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "rza012",
+      "email": "rza012@gmail.com",
+      "password": "admin123",
+      "role": "client",
+      "createdAt": "",
+      "profileImg": "https://static.thenounproject.com/png/349577-200.png",
+      "balance": "",
+      "basketItems": ""
+    }
+  ],
+  "messages": [
+    {
+      "Fullname": "",
+      "email": "",
+      "title": "",
+      "message": "",
+      "createdAt ": ""
+    }
+  ],
+  "orders": [
+    {
+      "userId": "1",
+      "totalPrice": "",
+      "createdAt ": "",
+      "items": [
+        {
+          "productId": "",
+          "count": ""
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": ""
+    }
+  ]
+}
