@@ -1,9 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { setupListeners } from "@reduxjs/toolkit/query";
 import { customersApi } from "./customersApi";
+import favsReducer from "./favoritSlice"
 
 const store = configureStore({
   reducer: {
+    favs:favsReducer,
     [customersApi.reducerPath]: customersApi.reducer,
   },
   middleware: (getDefaultMiddleware) =>
