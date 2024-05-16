@@ -1,0 +1,28 @@
+.home {
+    .scss-container {
+        div {
+            padding: 60px 0px;
+            text-align: center;
+            p {
+                color: rgba(0, 0, 0, 0.2);
+                font-size: 15px;
+            }
+            h3 {
+                font-size: 34px;
+                font-weight: 600;
+                color: #404044;
+            }
+        }
+        .button {
+            button {
+                margin: 0px 10px;
+                box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
+                padding: 25px 30px;
+                background-color: white;
+                border: 0px;
+                color: #a5a5ab;
+                font-size: 16px;
+            }
+        }
+    }
+}
