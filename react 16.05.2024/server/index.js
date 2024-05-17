@@ -31,6 +31,7 @@ const menuSchema = new Schema(
     price: { type: Number },
     description: { type: String },
     image: { type: String },
+    category: { type: String }
   },
   { timestamps: true }
 );

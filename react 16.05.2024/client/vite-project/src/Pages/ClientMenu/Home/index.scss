@@ -1,20 +1,27 @@
 .home {
     .scss-container {
-        div {
+        .text {
             padding: 60px 0px;
             text-align: center;
+
             p {
                 color: rgba(0, 0, 0, 0.2);
                 font-size: 15px;
             }
+
             h3 {
                 font-size: 34px;
                 font-weight: 600;
                 color: #404044;
             }
         }
+
         .button {
-            button {
+            text-align: center;
+            padding-bottom: 40px;
+
+
+            .button-icon {
                 margin: 0px 10px;
                 box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
                 padding: 25px 30px;
@@ -22,6 +29,32 @@
                 border: 0px;
                 color: #a5a5ab;
                 font-size: 16px;
+                transition: .6s;
+
+                &:hover {
+                    background-color: #ffb400;
+                    color: black;
+                    font-weight: 600;
+                }
+
+            }
+        }
+
+        .card {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 100px;
+
+            .card-mui {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                box-shadow: 0px 4px 18px -10px rgba(0, 0, 0, 0.867);
+                gap: 20px;
+                padding: 15px 20px;
+
             }
         }
     }
